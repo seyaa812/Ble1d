@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(90deg, #0480bd, #02527a, #333);
+    background: linear-gradient(90deg, #333, #02527a, #333);
     height: 100vh;
     margin: 0;
     display: flex;
@@ -58,6 +58,7 @@ button:focus,
 button:active {
     outline: none;
 }
+
 
 
 
