@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient(135deg, #0480bd, #02527a);
     height: 100vh;
     margin: 0;
     display: flex;
@@ -40,4 +41,5 @@ img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+
 }
