@@ -5,13 +5,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter';
     flex-direction: column;
     gap: 15px;
 }
 
 h1 {
     font-size: 40px;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .btn {
@@ -22,6 +23,7 @@ h1 {
     margin: 10px;
     padding: 12px 30px;
     font-size: 18px;
+    font-family: 'Inter';
     color: white;
     background-color: #333;
     border-radius: 8px;
