@@ -14,7 +14,7 @@ h1 {
     font-size: 40px;
 }
 
-button {
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,16 +22,15 @@ button {
     margin: 10px;
     padding: 12px 30px;
     font-size: 18px;
-    font-family: Arial, sans-serif;
     color: white;
     background-color: #333;
-    border: none;
     border-radius: 8px;
+    text-decoration: none;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
-button:hover {
+.btn:hover {
     background-color: black;
     transform: scale(1.05);
 }
@@ -44,11 +43,16 @@ img {
 
 .panel {
     background: rgba(0, 0, 0, 0.35);
-    padding: 25px, 40px;
+    padding: 25px 40px;
     border-radius: 15px;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
 }
+button {
+    outline: none;
+}
 
-
-
+button:focus,
+button:active {
+    outline: none;
+}
