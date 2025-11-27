@@ -40,6 +40,15 @@ button:hover {
 img {
     width: 200px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px;}
 
+.panel {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 25px, 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 }
+
+
+
