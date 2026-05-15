@@ -8,7 +8,7 @@ body {
 }
 
 .background {
-    background-image: url("images/loopedgif.gif");
+    background-image: url("images/background.gif");
     background-size: cover;
     background-position: center;
 }
