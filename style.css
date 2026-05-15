@@ -1,4 +1,13 @@
 body {
+    text-align: center;
+    color: #38405f;
+    font-size: 18px;
+    margin: 10px;
+    padding: 12px 30px;
+    
+}
+
+.background {
     background-image: url("images/backgroundgif.gif");
     background-size: cover;
     background-position: center;
